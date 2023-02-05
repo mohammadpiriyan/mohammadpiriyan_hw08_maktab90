@@ -1,3 +1,5 @@
+
+
 header {
   padding: 6rem 2rem 8rem 2rem;
   display: flex;
@@ -28,6 +30,7 @@ section {
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .section-main-box {
   display: flex;
@@ -44,7 +47,7 @@ section {
 .cards {
   background-color: #333333;
   display: flex;
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 4rem 2rem;
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -106,3 +109,4 @@ footer {
 span {
   color: #2690d4;
 }
+
