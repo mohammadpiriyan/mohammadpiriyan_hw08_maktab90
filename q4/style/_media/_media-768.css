@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   header {
     background-color: #333333;
   }
@@ -12,6 +12,12 @@
     color: #333333;
     background-color: #eaeaea;
     border: #333333 solid 1px;
+  }
+  .section-right-box {
+    width: 35%;
+  }
+  .section-left-box {
+    width: 35%;
   }
   .card-box {
     display: flex;
@@ -27,7 +33,6 @@
     background-color: #333333;
     display: flex;
     flex-direction: column;
-    
   }
   .right-double-section {
     background-color: #2690d4;
