@@ -1,9 +1,13 @@
-const uesr = {
-  setterGenerator: function setterGenerator(params) {
-    name: params;
-    return this;
-  },
-};
-const nameSetter = uesr.setterGenerator.call("jack");
+let user = {};
 
-console.log(nameSetter);
+function setterGenerator(key) {
+  return function (value) {
+    this[key] = value;
+    return this;
+  }.bind(user);
+  
+}
+const nameSetter = setterGenerator("name");
+const lastNameSetter = setterGenerator("lastName");
+nameSetter("mohammad");
+console.log(lastNameSetter("piriyan"));
