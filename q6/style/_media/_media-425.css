@@ -1,0 +1,35 @@
+@media (max-width: 426px) {
+  .card {
+    width: 16rem;
+    height: 22rem;
+  }
+  .number-card {
+    top: -6.5%;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  h3 {
+    font-size: large;
+  }
+  .blue-circle-top {
+    width: 15rem;
+    height: 15rem;
+    top: -7.5rem;
+    right: -7.5rem;
+  }
+  .blue-circle-bottom {
+    position: absolute;
+    bottom: -7.5rem;
+    left: -7.5rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .container {
+    display: flex;
+    padding-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
