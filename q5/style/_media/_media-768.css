@@ -1,29 +1,28 @@
 @media (max-width: 768px) {
-  main {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+  .card {
+    width: 14rem;
+    height: 20rem;
   }
-  .container {
-    box-sizing: border-box;
-    padding: 16px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 175px;
-    grid-template-areas:
-      "b a a"
-      "b d d"
-      "e e c"
-      "f f c"
-      "g h h";
-    gap: 16px;
+  .number-card {
+    top: -6.5%;
+    width: 2.5rem;
+    height: 2.5rem;
   }
-  .container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  h3 {
+    font-size: large;
+  }
+  .blue-circle-top {
+    width: 15rem;
+  height: 15rem;
+  top: -7.5rem;
+  right: -7.5rem;
+  }
+  .blue-circle-bottom {
+    position: absolute;
+    bottom: -7.5rem;
+    left: -7.5rem;
+    width: 15rem;
+    height: 15rem;
+    
   }
 }
